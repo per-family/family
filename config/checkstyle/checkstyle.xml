@@ -170,7 +170,7 @@
             <property name="option" value="nl"/>
         </module>
         <module name="PackageName">
-            <property name="format" value="^run\.halo(\.[a-z][a-z0-9]*)*$"/>
+            <property name="format" value="^com\.akikun(\.[a-z][a-z0-9]*)*$"/>
             <message key="name.invalidPattern"
                      value="Package name ''{0}'' must match pattern ''{1}''."/>
         </module>
@@ -265,7 +265,7 @@
             <property name="severity" value="warning"/>
         </module>
         <module name="CustomImportOrder">
-            <property name="sortImportsInGroupAlphabetically" value="true"/>
+            <property name="sortImportsInGroupAlphabetically" value="false"/>
             <property name="separateLineBetweenGroups" value="true"/>
             <property name="customImportOrderRules" value="STATIC###THIRD_PARTY_PACKAGE"/>
             <property name="tokens" value="IMPORT, STATIC_IMPORT, PACKAGE_DEF"/>
